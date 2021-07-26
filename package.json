@@ -6,11 +6,12 @@
   "_comment": "npm run start / npm run server",
   "scripts": {
     "start": "node app.js",
-    "server": "nodemon app.js",
     "client-install": "cd client && npm install",
     "install-all-deps": "concurrently \"npm install\" \"npm run client-install\"",
+    "server": "nodemon app.js",
     "client": "npm start --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-postbuild": "cd client && npm install && npm run build"
   },
   "keywords": [],
   "author": "",
