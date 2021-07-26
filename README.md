@@ -42,7 +42,7 @@ To run this project in your local machine, please follow the instructions below.
 Clone this repository to your local machine
 
 ```{ .git }
-git clone https://github.com/smallpaes/expense-tracker.git
+git clone https://github.com/LouisChen1013/expense-tracker.git
 ```
 
 ### Setup
