@@ -1,0 +1,26 @@
+{
+  "name": "expanse-tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "_comment": "npm run start / npm run server",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js",
+    "client-install": "cd client && npm install",
+    "install-all-deps": "concurrently \"npm install\" \"npm run client-install\"",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^6.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.2",
+    "morgan": "^1.10.0"
+  }
+}
