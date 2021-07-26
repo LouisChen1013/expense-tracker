@@ -2,7 +2,7 @@
 
 A web interface built with MongoDB, Express, React, Node(MERN) for users to manage their daily transactions. Implementing with CRUD operations where users can create, update, delete their transactions and further review their spending history from previous periods.
 
-Live Demo can be view at <https://expense-tracker-demo-c.herokuapp.com/>
+Live Demo can be viewed at <https://expense-tracker-demo-c.herokuapp.com/>
 
 ---
 
