@@ -8,9 +8,7 @@ Live Demo can be view at <https://expense-tracker-demo-c.herokuapp.com/>
 
 ## Project First Look
 
-<!-- ![Expense Tracker gif](expense-tracker.gif) -->
-
-[![Expense Tracker gif](https://img.youtube.com/vi/FtE6UJupfzk/default.jpg)](https://youtu.be/FtE6UJupfzk)
+![Expense Tracker gif](expense-tracker.gif)
 
 ## Key Features
 
