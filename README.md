@@ -42,7 +42,7 @@ To run this project in your local machine, please follow the instructions below.
 Clone this repository to your local machine
 
 ```{ .git }
-\$ git clone https://github.com/smallpaes/expense-tracker.git
+git clone https://github.com/smallpaes/expense-tracker.git
 ```
 
 ### Setup
@@ -50,19 +50,19 @@ Clone this repository to your local machine
 #### 1. Enter the project folder
 
 ```{console}
-\$ cd expense-tracker
+cd expense-tracker
 ```
 
 #### 2. Install npm packages
 
 ```{console}
-\$ npm run install-all-deps
+npm run install-all-deps
 ```
 
 #### 3. Activate the server
 
 ```{console}
-\$ npm run dev
+npm run dev
 ```
 
 #### 4. Check the message for successful activation
