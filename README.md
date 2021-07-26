@@ -76,4 +76,4 @@ npm run dev
 > You can now view expanse-tracker in the browser.
 ```
 
-Your application will be run on browser with the URL: http://localhost:3000
+Your application will be run on browser with the URL: <http://localhost:3000>

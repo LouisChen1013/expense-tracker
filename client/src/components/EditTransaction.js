@@ -28,6 +28,7 @@ const EditTransaction = (props) => {
             id="text"
             value={text}
             placeholder="Description"
+            autoComplete="off"
             onChange={(e) => setText(e.target.value)}
           />
         </div>
@@ -37,6 +38,7 @@ const EditTransaction = (props) => {
             id="amount"
             value={amount}
             placeholder="Amount (negative - expense, positive - income)"
+            autoComplete="off"
             onChange={(e) => setAmount(e.target.value)}
           />
         </div>

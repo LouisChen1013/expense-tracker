@@ -35,6 +35,7 @@ const AddTransaction = () => {
             id="text"
             value={text}
             placeholder="Description"
+            autoComplete="off"
             onChange={(e) => setText(e.target.value)}
           />
         </div>
@@ -44,6 +45,7 @@ const AddTransaction = () => {
             id="amount"
             value={amount}
             placeholder="Amount (negative - expense, positive - income)"
+            autoComplete="off"
             onChange={(e) => setAmount(e.target.value)}
           />
         </div>
